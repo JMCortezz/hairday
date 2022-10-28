@@ -1,0 +1,305 @@
+*{
+  
+  box-sizing: border-box;
+}
+
+
+body{
+    text-align: center;
+    font-size: 18px;    
+    background-color: #F5EFE6;
+}
+
+.hair-day{
+    background-image: url("hero.jpg");
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+
+nav ul li{
+    list-style: none;
+    display: contents;
+    
+}
+
+nav li a{
+    text-decoration: none;
+    color: burlywood;
+    margin: 10px;
+
+}
+
+  a:hover {
+    color: rgb(249, 145, 8);
+  }
+
+
+#btn1{
+        background-color: #4CAF50; 
+        border: none;
+        color: white;
+        padding: 20px 25px;
+        text-align: center;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;   
+        margin-right: 15px;
+}
+
+#btn1:hover {
+    background-color:green;
+  }
+
+
+#btn2 {
+  background-color: transparent;
+  background-repeat:no-repeat;
+  border-radius: 5px;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  height:  60px;
+  border:  2px solid rgb(0, 0, 0);
+  float:  none;
+  text-align:  center;
+  width:  120px;
+  padding:  0px;
+  font-size:  14px;
+  color:  rgb(15, 15, 15);   
+}
+
+#btn2:hover {
+  color:  rgb(0, 0, 0);
+  background:  rgba(0, 0, 0, 0.2);
+  }
+
+
+
+.services{
+    display: flex;
+    padding: 10px 20px;
+   margin-left: 10px;
+    
+}
+
+.mens-haircut, .nails-cut, .body-massage{
+  border-style: groove;
+  padding: 10px;
+  margin: 5px;
+  box-sizing: border-box;
+  
+}
+
+.ftr {
+    margin-top: 50px;
+    background-color: #000000;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+
+    }
+
+.ftr img{
+    margin-top: 25px;
+    float: left;
+
+}
+
+.ftr p{
+    text-align: end;
+}
+
+/* Desktop Layout by JM POGI */
+@media screen and (max-width: 1440px) {
+
+  body{
+    text-align: center;   
+    background-color: #F5EFE6;
+}
+
+.hair-day{
+  background-image: url("hero.jpg");
+  height: 100vh;
+  background-size: cover;
+
+}
+
+
+}
+
+
+/* Tablet Layout by JM POGI */
+@media screen and (max-width: 768px) {
+
+  body{
+    text-align: center;   
+    background-color: #F5EFE6;
+}
+
+
+.hair-day{
+  background-image: url("hero.jpg");
+  height: 85vh;
+  background-size: cover;
+  
+}
+
+  nav ul li a{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-right: 47px;
+   
+  }
+
+  p{
+    font-size: 16px;
+  }
+
+  #btn1{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 24px 36px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;   
+    margin-right: 20px;
+}
+
+#btn2 {
+  background-color: transparent;
+  background-repeat:no-repeat;
+  border-radius: 5px;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  height:  60px;
+  border:  2px solid rgb(0, 0, 0);
+  float:  none;
+  text-align:  center;
+  width:  120px;
+  padding:  0px;
+  font-size:  14px;
+  color:  rgb(15, 15, 15);   
+}
+
+#btn2:hover {
+  color:  rgb(0, 0, 0);
+  background:  rgba(0, 0, 0, 0.2);
+  }
+
+
+.services{
+    display: table-row;
+    padding: 10px 20px;
+    margin-left: 10px;
+    
+}
+
+.mens-haircut, .nails-cut, .body-massage{
+  border-style: groove;
+  padding: 10px;
+  margin: 5px;
+  
+  
+}
+
+
+.ftr p{
+  background-color: #000000;
+  color: aliceblue;
+  text-align: center;
+  padding: 10px 36px;
+
+  }
+
+  .img{
+    display: flex;
+    justify-content: center;
+
+  }
+
+}
+
+
+/* Mobile Layout by JM POGI */
+@media screen and (max-width: 360px) {
+
+  body{
+    text-align: center;   
+    background-color: #F5EFE6;
+}
+
+
+.hair-day{
+  background-image: url("hero.jpg");
+  height: 40 vh;
+  background-size: cover;
+  
+}
+
+  nav ul li a{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+   
+  }
+
+  p{
+    font-size: 14px;
+  }
+
+  #btn1{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 18px 32px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;   
+    margin-right: 15px;
+}
+
+#btn2 {
+    background-color: transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    height:  55px;
+    border:  2px solid rgb(0, 0, 0);
+    float:  none;
+    text-align:  center;
+    width:  120px;
+    padding:  0px;
+    font-size:  14px;
+    color:  rgb(15, 15, 15); 
+}
+
+#btn2:hover {
+  color:  rgb(0, 0, 0);
+  background:  rgba(255, 255, 255, 0.2);
+}
+
+.ftr p{
+  background-color: #000000;
+  color: aliceblue;
+  text-align: center;
+  padding: 10px 10px;
+
+  }
+
+  .services{
+    display: table-row;
+    padding: 10px 20px;
+    margin-left: 5%;
+    
+}
+
+}
+
